@@ -17,9 +17,9 @@ photo: assets/files/photo.png
 
 # profile links
 profile:
-  bluesky: ttps://bsky.app/profile/floschl8.bsky.social
+  bluesky: https://bsky.app/profile/floschl8.bsky.social
   linkedin: https://linkedin.com/in/florian-schlund
-  github: "https://github.com/FloSchl8"
+  github: https://github.com/FloSchl8
 
 # build settings
 permalink: pretty
