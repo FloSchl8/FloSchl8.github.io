@@ -1,2 +1,3 @@
 source "https://rubygems.org"
-gem 'github-pages'
+
+gem 'cvless', '~> 2.4'

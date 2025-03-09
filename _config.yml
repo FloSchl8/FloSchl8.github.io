@@ -1,22 +1,41 @@
-# Site settings
 title: Florian Schlund
-description: Software Developer
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+description: Software Engineer
+baseurl: ""
+url: https://floschl.dev
 
-# User settings
-username: Florian Schlund
-user_description: I'm a Software Engineer from Germany, currently working as Java Developer at HUK Coburg.
-user_title: Software Engineer
-# email: mail@mail.com
-# twitter_username: lorem_ipsum
-# github_username:  lorem_ipsum
-# gplus_username:  lorem_ipsum
+theme: cvless
 
-exclude: ['package.json', 'src' , 'node_modules']
+# site settings
+taglong: My personal site
+tagshort: Personal Site
 
-defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
+# author settings
+author:
+  name: Florian Schlund
+  email: mail@floschl.dev
+photo: assets/files/photo.png
+
+# profile links
+profile:
+  bluesky: ttps://bsky.app/profile/floschl8.bsky.social
+  linkedin: https://linkedin.com/in/florian-schlund
+  github: "https://github.com/FloSchl8"
+
+# build settings
+permalink: pretty
+exclude:
+  - LICENSE
+  - README.md
+  - Gemfile
+  - vendor/
+  - docker-compose.yml
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  sourcemap: never
