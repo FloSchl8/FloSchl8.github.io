@@ -7,6 +7,6 @@ title: Home
 
 Hi everyone,
 
-I'm a software engieer based in Germany. Most of my work is done with Java and Quarkus, but I'm also familiar with Go.
+I'm a software engineer based in Germany. Most of my work is done with Java and Quarkus, but I'm also familiar with Go.
 
 {% include archive.html %}
