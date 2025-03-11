@@ -6,8 +6,8 @@ url: https://floschl.dev
 theme: cvless
 
 # site settings
-taglong: My personal site
-tagshort: Personal Site
+taglong: Software Engineer
+#tagshort: Personal Site
 
 # author settings
 author:
